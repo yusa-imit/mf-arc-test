@@ -1,0 +1,9 @@
+{
+  "name": "nx-mf-own-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/nx-mf-own-e2e/src",
+  "implicitDependencies": ["nx-mf-own"],
+  "// targets": "to see all targets run: nx show project nx-mf-own-e2e --web",
+  "targets": {}
+}

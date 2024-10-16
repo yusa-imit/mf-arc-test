@@ -1,0 +1,55 @@
+{
+  "name": "hero",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/hero/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/rspack:rspack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "web",
+        "outputPath": "dist/apps/hero",
+        "main": "apps/hero/src/main.ts",
+        "tsConfig": "apps/hero/tsconfig.app.json",
+        "rspackConfig": "apps/hero/rspack.config.js",
+        "assets": ["apps/hero/src/favicon.ico", "apps/hero/src/assets"]
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production",
+          "optimization": true,
+          "sourceMap": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/rspack:dev-server",
+      "options": {
+        "buildTarget": "hero:build:development"
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "buildTarget": "hero:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/hero/jest.config.ts"
+      }
+    }
+  }
+}
