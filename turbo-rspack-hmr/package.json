@@ -1,0 +1,4 @@
+{
+  "name": "rspack-hmr",
+  "packageManager": "pnpm@9.12.1"
+}

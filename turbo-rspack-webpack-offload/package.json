@@ -1,0 +1,17 @@
+{
+  "name": "rspack_offload",
+  "private": true,
+  "description": "Speed up Webpack by offloading some workload to [rspack](https://rspack.dev)",
+  "version": "0.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderlaw/react-webpack-MF/issues"
+  },
+  "homepage": "https://github.com/anderlaw/react-webpack-MF#readme",
+  "devDependencies": {
+    "wait-on": "7.2.0"
+  },
+  "packageManager": "pnpm@9.12.1"
+}
