@@ -1,0 +1,27 @@
+{
+  "routeAssets": {
+    "main": {
+      "chunkIds": [
+        "main"
+      ],
+      "assets": [
+        "http://localhost:3007/static/js/main.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "page": {
+      "chunkIds": [
+        "vendors-node_modules_pnpm_module-federation_modern-js_0_6_10_react-dom_18_3_1_react_18_3_1__r-c31af3",
+        "page"
+      ],
+      "assets": [
+        "http://localhost:3007/static/js/async/vendors-node_modules_pnpm_module-federation_modern-js_0_6_10_react-dom_18_3_1_react_18_3_1__r-c31af3.js",
+        "http://localhost:3007/static/js/async/page.js",
+        "http://localhost:3007/static/css/async/page.css"
+      ],
+      "referenceCssAssets": [
+        "http://localhost:3007/static/css/async/page.css"
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "consumer",
+  "name": "consumer",
+  "metaData": {
+    "name": "consumer",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "modernjs-ssr-host"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": ".",
+      "api": "."
+    },
+    "globalName": "consumer",
+    "pluginVersion": "0.6.10",
+    "publicPath": "http://localhost:3007/",
+    "prefetchInterface": false,
+    "ssrRemoteEntry": {
+      "name": "",
+      "path": "bundles",
+      "type": "commonjs-module"
+    }
+  },
+  "shared": [
+    {
+      "id": "consumer:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react-dom_18_3_1_react_18_3_1_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "consumer:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "provider",
+      "moduleName": "Image",
+      "alias": "remote",
+      "entry": "http://59.12.183.34:3006/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}

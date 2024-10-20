@@ -1,0 +1,49 @@
+{
+  "routeAssets": {
+    "__federation_expose_Image": {
+      "chunkIds": [
+        "__federation_expose_Image"
+      ],
+      "assets": [
+        "http://localhost:3006/__federation_expose_Imageprovider-d6261ec3a505638c.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "main": {
+      "chunkIds": [
+        "main"
+      ],
+      "assets": [
+        "http://localhost:3006/main.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "main-server-loaders": {
+      "chunkIds": [
+        "main-server-loaders"
+      ],
+      "assets": [
+        "http://localhost:3006/main-server-loaders.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "page": {
+      "chunkIds": [
+        "page"
+      ],
+      "assets": [
+        "http://localhost:3006/pageprovider-bea9c15a4bd1034b.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "provider": {
+      "chunkIds": [
+        "provider"
+      ],
+      "assets": [
+        "http://localhost:3006/remoteEntry.js"
+      ],
+      "referenceCssAssets": []
+    }
+  }
+}

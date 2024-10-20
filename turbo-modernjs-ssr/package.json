@@ -1,0 +1,11 @@
+{
+  "name": "modernjs-ssr",
+  "description": "",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "concurrently": "8.2.2",
+    "turbo": "^2.2.1"
+  },
+  "packageManager": "pnpm@9.12.1"
+}

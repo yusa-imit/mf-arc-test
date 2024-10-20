@@ -1,0 +1,51 @@
+{
+  "routeAssets": {
+    "__federation_expose_Image": {
+      "chunkIds": [
+        "vendors-node_modules_pnpm_react_18_3_1_node_modules_react_jsx-dev-runtime_js",
+        "webpack_sharing_consume_default_react_react-webpack_sharing_consume_default_react_react",
+        "__federation_expose_Image"
+      ],
+      "assets": [
+        "http://localhost:3008/static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_jsx-dev-runtime_js.js",
+        "http://localhost:3008/static/js/async/__federation_expose_Image.js",
+        "http://localhost:3008/static/css/async/__federation_expose_Image.css"
+      ],
+      "referenceCssAssets": [
+        "http://localhost:3008/static/css/async/__federation_expose_Image.css"
+      ]
+    },
+    "dynamic_provider": {
+      "chunkIds": [
+        "dynamic_provider"
+      ],
+      "assets": [
+        "http://localhost:3008/remoteEntry.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "main": {
+      "chunkIds": [
+        "main"
+      ],
+      "assets": [
+        "http://localhost:3008/static/js/main.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "page": {
+      "chunkIds": [
+        "vendors-node_modules_pnpm_rspack_core_1_0_0-alpha_5__swc_helpers_0_5_11_node_modules_rspack_c-b0548e",
+        "page"
+      ],
+      "assets": [
+        "http://localhost:3008/static/js/async/vendors-node_modules_pnpm_rspack_core_1_0_0-alpha_5__swc_helpers_0_5_11_node_modules_rspack_c-b0548e.js",
+        "http://localhost:3008/static/js/async/page.js",
+        "http://localhost:3008/static/css/async/page.css"
+      ],
+      "referenceCssAssets": [
+        "http://localhost:3008/static/css/async/page.css"
+      ]
+    }
+  }
+}

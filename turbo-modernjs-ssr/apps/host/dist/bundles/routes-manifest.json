@@ -1,0 +1,31 @@
+{
+  "routeAssets": {
+    "main": {
+      "chunkIds": [
+        "main"
+      ],
+      "assets": [
+        "http://localhost:3007/main.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "main-server-loaders": {
+      "chunkIds": [
+        "main-server-loaders"
+      ],
+      "assets": [
+        "http://localhost:3007/main-server-loaders.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "page": {
+      "chunkIds": [
+        "page"
+      ],
+      "assets": [
+        "http://localhost:3007/pageconsumer-64b236eeb1b65bb4.js"
+      ],
+      "referenceCssAssets": []
+    }
+  }
+}

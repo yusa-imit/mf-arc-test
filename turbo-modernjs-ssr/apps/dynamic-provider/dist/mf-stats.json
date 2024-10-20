@@ -1,0 +1,111 @@
+{
+  "id": "dynamic_provider",
+  "name": "dynamic_provider",
+  "metaData": {
+    "name": "dynamic_provider",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "modernjs-ssr-dynamic-provider"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "@mf-types.zip",
+      "api": "@mf-types.d.ts"
+    },
+    "globalName": "dynamic_provider",
+    "pluginVersion": "0.6.10",
+    "publicPath": "http://localhost:3008/",
+    "prefetchInterface": false,
+    "ssrRemoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "bundles",
+      "type": "commonjs-module"
+    }
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "dynamic_provider:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react-dom_18_3_1_react_18_3_1_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "dynamic_provider:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Image"
+      ]
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./Image",
+      "id": "dynamic_provider:Image",
+      "name": "Image",
+      "requires": [
+        "react"
+      ],
+      "file": "src\\components\\Image.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_jsx-dev-runtime_js.js",
+            "static/js/async/__federation_expose_Image.js"
+          ],
+          "async": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "static/css/async/__federation_expose_Image.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}

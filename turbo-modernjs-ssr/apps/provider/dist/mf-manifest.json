@@ -1,0 +1,99 @@
+{
+  "id": "provider",
+  "name": "provider",
+  "metaData": {
+    "name": "provider",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "modernjs-ssr-provider"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "@mf-types.zip",
+      "api": "@mf-types.d.ts"
+    },
+    "globalName": "provider",
+    "pluginVersion": "0.6.10",
+    "publicPath": "http://localhost:3006/",
+    "prefetchInterface": false,
+    "ssrRemoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "bundles",
+      "type": "commonjs-module"
+    }
+  },
+  "shared": [
+    {
+      "id": "provider:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react-dom_18_3_1_react_18_3_1_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "provider:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "provider:Image",
+      "name": "Image",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_jsx-dev-runtime_js.js",
+            "static/js/async/__federation_expose_Image.js"
+          ],
+          "async": [
+            "static/js/async/vendors-node_modules_pnpm_react_18_3_1_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "static/css/async/__federation_expose_Image.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./Image"
+    }
+  ]
+}
